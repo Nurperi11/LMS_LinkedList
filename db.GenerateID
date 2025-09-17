@@ -1,0 +1,10 @@
+package db;
+
+public class GenerateID {
+    public static Long actorId = 0L;
+    public static Long movieId = 0L;
+    public static Long producerId = 0L;
+    public static Long genActorId(){ return ++actorId; }
+    public static Long genMovieId(){ return ++movieId; }
+    public static Long genProducerId(){ return ++producerId; }
+}
